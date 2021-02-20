@@ -77,5 +77,7 @@ ggplot(dado, aes(x = ano, y = tx_morte))+
        caption = 'Fonte: Dados do SIM-SUS') #+ facet_wrap(~nom_mun)
 
 
+### população anual
 
-
+ggplot(dado, aes(x = ano, y = popT))+
+  geom_col()
