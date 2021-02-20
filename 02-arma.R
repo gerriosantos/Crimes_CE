@@ -80,4 +80,7 @@ ggplot(dado, aes(x = ano, y = tx_morte))+
 ### população anual
 
 ggplot(dado, aes(x = ano, y = popT))+
-  geom_col(color = 'white', fill = 'red')
+  geom_col(color = 'white', fill = 'red')+
+  labs(title = '', subtitle = '', 
+       y = 'População', x = 'Anos', color = '',
+       caption = 'Fonte: Dados do IBGE') #+ facet_wrap(~nom_mun)
