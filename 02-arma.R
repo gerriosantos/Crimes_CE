@@ -80,4 +80,4 @@ ggplot(dado, aes(x = ano, y = tx_morte))+
 ### população anual
 
 ggplot(dado, aes(x = ano, y = popT))+
-  geom_col()
+  geom_col(color = 'white', fill = 'red')
