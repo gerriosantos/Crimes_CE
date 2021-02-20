@@ -97,8 +97,7 @@ ggplot(dado, aes(x = ano, y = n))+
   theme_light()+
   labs(title = 'Homicídios (100mil/hab) -- Ceará', subtitle = 'cid10 (X85:Y09 e; Y35:Y36)', 
        y = 'Mortes', x = 'Anos', color = '',
-       caption = 'Fonte: Dados do SIM-SUS') 
-  #+ facet_wrap(~nom_mun)
+       caption = 'Fonte: Dados do SIM-SUS')   #+ facet_wrap(~nom_mun)
 
 
 
