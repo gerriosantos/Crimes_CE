@@ -84,4 +84,4 @@ ggplot(dado, aes(x = ano, y = popT))+
   labs(title = '', subtitle = '', 
        y = 'População', x = 'Anos', color = '',
        caption = 'Fonte: Dados do IBGE')+
-  theme_light()
+  theme_bw()
